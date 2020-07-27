@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-size: 16px;
+}
+body {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Aldrich", sans-serif;
+}
+.timer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ccc
+  background-image: radial-gradient(
+      closest-side,
+      transparent 98%,
+      rgba(0, 0, 0, 0.6) 99%
+    ),
+    radial-gradient(closest-side, transparent 98%, rgba(0, 0, 0, 0.9) 99%);
+
+  background-size: 80px 80px;
+  background-position: 0 0, 40px 40px;
+}
